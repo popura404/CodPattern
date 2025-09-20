@@ -114,7 +114,7 @@ public class BackpackMenuScreen extends Screen {
     public void renderBackground(@NotNull GuiGraphics pGuiGraphics) {
         pGuiGraphics.fillGradient(0, 0, this.width, this.height, 0x90202020, 0xC0000000);
     }
-
+//init
     public void init() {
         super.init();
         this.SCREEN_HEIGHT = this.height;
